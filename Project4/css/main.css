@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-style: italic;
+  background-color: skyblue; 
+  color: hotpink; 
+}
+
+main p {
+  font-weight: bold;
+}
+
+form {
+  width: 70%; 
+  margin-left:auto; 
+  margin-right:auto; 
+}
+.form-control {
+  margin-bottom: 15px;
+}
+
+h1 {
+  text-align:center; 
+  padding: 10px 0; 
+}
+
+h3 {
+  text-align: center;
+
+}
+
+#submission {
+  text-align: center;
+  }
+
+footer {
+  margin-top: 50px; 
+  text-align: left;
+  font-weight: bold;
+
+}
+

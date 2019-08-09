@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Log in to enter weird web site  </title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<script src="js/validation.js" async></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1> Login to enter weird web site </h1>
+      <h3>Welcome to Our Website!</h2>
+    </header>
+    <main>
+      <p> * Required Information</p>
+       <form action="" method="post" id="form-validation">
+          <fieldset class="form-group">
+             <input type="text" name="firstname" class="form-control" placeholder="Enter your first name *" id="fName" required pattern="[A-Za-z]+">
+             <input type="text" name="lastname" class="form-control" placeholder="Enter your last name *" id="lName" required pattern="[A-Za-z]+">
+               <input type="number" name="age" class="form-control" placeholder="Enter your age *" id="age" required min="1" max="130">
+             <input type="email" name="email" class="form-control" placeholder="Enter your email *" required id="email">
+          </fieldset>
+          
+          <p id="submission"><input type="submit" value="go to website" name="submit"></p>
+       </form>
+
+    </main>
+    <footer>
+      <p> &copy; Weird Webstie inc.</p>
+    </footer>
+  </div><!--end container -->
+</body>
+</html>
